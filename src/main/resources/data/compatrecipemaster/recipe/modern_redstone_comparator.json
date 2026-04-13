@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " # ",
+        "#Q#",
+        "PPP"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:redstone_torch"
+        },
+        "Q": {
+            "tag": "c:gems/quartz"
+        },
+        "P": {
+            "tag": "c:plates/iron"
+        }
+    },
+    "result": {
+        "id": "minecraft:comparator",
+        "count": 1
+    }
+}

@@ -1,0 +1,1 @@
+{"type":"mekanism:nucleosynthesizing","chemical_input":{"amount":8,"chemical":"mekanism:antimatter"},"duration":2400,"item_input":{"count":1,"id":"minecraft:deepslate"},"output":{"count":1,"id":"minecraft:end_stone"},"per_tick_usage":false}

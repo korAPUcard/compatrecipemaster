@@ -1,0 +1,22 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "EGE",
+        "GAG",
+        " G "
+    ],
+    "key": {
+        "E": {
+            "item": "minecraft:emerald"
+        },
+        "G": {
+            "tag": "c:ingots/gold"
+        },
+        "A": {
+            "item": "minecraft:end_crystal"
+        }
+    },
+    "result": {
+        "id": "minecraft:totem_of_undying"
+	}
+}

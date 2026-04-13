@@ -1,0 +1,21 @@
+{
+  "type": "mekmm:planting",
+  "chemical_input": {
+    "amount": 1,
+    "chemical": "mekmm:nutrient_solution"
+  },
+  "item_input": {
+    "count": 1,
+    "item": "croptopia:apricot_sapling"
+  },
+  "main_output": {
+    "count": 6,
+    "id": "minecraft:oak_log"
+  },
+  "secondary_output": {
+    "count": 8,
+    "id": "croptopia:apricot"
+  },
+  "secondary_chance": 1.0,
+  "per_tick_usage": true
+}

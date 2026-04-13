@@ -1,0 +1,26 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#R#",
+        "VCV",
+        "#R#"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:purple_dye"
+        },
+        "R": {
+            "item": "minecraft:repeater"
+        },
+        "V": {
+            "item": "minecraft:redstone"
+        },
+        "C": {
+            "item": "minecraft:command_block"
+        }
+    },
+    "result": {
+        "id": "minecraft:repeating_command_block",
+        "count": 1
+    }
+}

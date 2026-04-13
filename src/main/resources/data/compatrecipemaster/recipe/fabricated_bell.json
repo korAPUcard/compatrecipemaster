@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "///",
+        " P ",
+        "PGP"
+    ],
+    "key": {
+        "/": {
+            "item": "minecraft:stick"
+        },
+        "P": {
+            "tag": "c:plates/gold"
+        },
+        "G": {
+            "item": "minecraft:gold_nugget"
+        }
+    },
+    "result": {
+        "id": "minecraft:bell",
+        "count": 1
+    }
+}

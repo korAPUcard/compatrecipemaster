@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#I#",
+        "ICI",
+        "#I#"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:waxed_chiseled_copper"
+        },
+        "I": {
+            "item": "minecraft:waxed_copper_bulb"
+        },
+        "C": {
+            "item": "minecraft:conduit"
+        }
+    },
+    "result": {
+        "id": "minecraft:command_block",
+        "count": 1
+    }
+}

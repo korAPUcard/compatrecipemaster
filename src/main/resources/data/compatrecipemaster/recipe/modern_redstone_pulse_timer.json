@@ -1,0 +1,25 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "AB#",
+        "PPP"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:redstone_torch"
+        },
+        "A": {
+            "item": "minecraft:amethyst_shard"
+        },
+        "B": {
+            "tag": "c:plates/brass"
+        },
+        "P": {
+            "tag": "c:plates/iron"
+        }
+    },
+    "result": {
+        "id": "create:pulse_timer",
+        "count": 1
+    }
+}

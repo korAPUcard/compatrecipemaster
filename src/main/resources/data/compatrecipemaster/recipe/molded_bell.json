@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "B",
+        "P"
+    ],
+    "key": {
+        "B": {
+            "tag": "c:storage_blocks/gold"
+        },
+        "P": {
+            "tag": "c:plates/gold"
+        }
+    },
+    "result": {
+        "id": "minecraft:bell",
+        "count": 1
+    }
+}

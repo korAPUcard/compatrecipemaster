@@ -1,0 +1,26 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#R#",
+        "CBC",
+        "#R#"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:lime_dye"
+        },
+        "R": {
+            "item": "minecraft:redstone"
+        },
+        "C": {
+            "item": "minecraft:chain"
+        },
+        "B": {
+            "item": "minecraft:command_block"
+        }
+    },
+    "result": {
+        "id": "minecraft:chain_command_block",
+        "count": 1
+    }
+}

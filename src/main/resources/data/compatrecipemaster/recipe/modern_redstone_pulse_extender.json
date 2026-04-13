@@ -1,0 +1,26 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "  #",
+        "RB#",
+        "PPP"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:redstone_torch"
+        },
+        "R": {
+            "item": "minecraft:redstone"
+        },
+        "B": {
+            "tag": "c:plates/brass"
+        },
+        "P": {
+            "tag": "c:plates/iron"
+        }
+    },
+    "result": {
+        "id": "create:pulse_extender",
+        "count": 1
+    }
+}

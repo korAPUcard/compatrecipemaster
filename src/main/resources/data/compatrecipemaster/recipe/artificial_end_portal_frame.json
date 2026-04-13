@@ -1,0 +1,29 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#S#",
+        "EYE",
+        "#N#"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:end_stone"
+        },
+        "S": {
+            "item": "minecraft:sculk_shrieker"
+        },
+        "E": {
+            "item": "minecraft:echo_shard"
+        },
+        "Y": {
+            "item": "minecraft:end_crystal"
+        },
+        "N": {
+            "item": "minecraft:nether_star"
+        }
+    },
+    "result": {
+        "id": "minecraft:end_portal_frame",
+        "count": 1
+    }
+}

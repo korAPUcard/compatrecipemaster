@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#I#",
+        "ICI",
+        "#I#"
+    ],
+    "key": {
+        "#": {
+            "tag": "c:plates/brass"
+        },
+        "I": {
+            "item": "mekanism:qio_dashboard"
+        },
+        "C": {
+            "item": "computercraft:computer_advanced"
+        }
+    },
+    "result": {
+        "id": "minecraft:command_block",
+        "count": 1
+    }
+}

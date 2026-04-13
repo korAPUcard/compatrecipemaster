@@ -1,0 +1,26 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#C#",
+        "#W#",
+        "F F"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:phantom_membrane"
+        },
+        "C": {
+            "item": "minecraft:chainmail_chestplate"
+        },
+        "W": {
+            "item": "minecraft:wind_charge"
+        },
+        "F": {
+            "item": "minecraft:feather"
+        }
+    },
+    "result": {
+        "id": "minecraft:elytra",
+        "count": 1
+    }
+}

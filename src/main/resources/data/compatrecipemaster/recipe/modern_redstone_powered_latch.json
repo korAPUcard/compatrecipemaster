@@ -1,0 +1,26 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " # ",
+        "RLR",
+        "PPP"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:redstone_torch"
+        },
+        "R": {
+            "item": "minecraft:redstone"
+        },
+        "L": {
+            "item": "minecraft:lever"
+        },
+        "P": {
+            "tag": "c:plates/iron"
+        }
+    },
+    "result": {
+        "id": "create:powered_latch",
+        "count": 1
+    }
+}
