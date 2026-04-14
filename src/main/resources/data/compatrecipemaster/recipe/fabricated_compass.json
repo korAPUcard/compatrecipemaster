@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#",
+        "R",
+        "P"
+    ],
+    "key": {
+        "#": "minecraft:glass_pane",
+        "R": "minecraft:redstone",
+        "P": "c:plates/iron"
+    },
+    "result": {
+        "id": "minecraft:compass",
+        "count": 1
+    }
+}
