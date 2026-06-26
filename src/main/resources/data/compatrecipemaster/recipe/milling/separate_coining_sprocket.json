@@ -1,0 +1,19 @@
+{
+    "type": "create:milling",
+    "ingredients": [
+        {
+            "item": "compatrecipemaster:coining_sprocket_coin"
+        }
+    ],
+    "processing_time": 10,
+    "results": [
+        {
+            "count": 1,
+            "id": "numismatics:sprocket"
+        },
+        {
+            "count": 1,
+            "id": "compatrecipemaster:sprocket_coining_die"
+        }
+    ]
+}

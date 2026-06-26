@@ -1,0 +1,58 @@
+{
+    "type": "create:sequenced_assembly",
+    "ingredient": {
+        "tag": "c:plates/gold"
+    },
+    "results": [
+        {
+            "id": "compatrecipemaster:coining_crown_coin"
+        }
+    ],
+    "sequence": [
+        {
+            "type": "create:deploying",
+            "ingredients": [
+                {
+                    "item": "compatrecipemaster:incomplete_crown_coin"
+                },
+                {
+                    "item": "compatrecipemaster:crown_coining_die"
+                }
+            ],
+            "results": [
+                {
+                    "id": "compatrecipemaster:incomplete_crown_coin"
+                }
+            ]
+        },
+        {
+            "type": "create:pressing",
+            "ingredients": [
+                {
+                    "item": "compatrecipemaster:incomplete_crown_coin"
+                }
+            ],
+            "results": [
+                {
+                    "id": "compatrecipemaster:incomplete_crown_coin"
+                }
+            ]
+        },
+        {
+            "type": "create:cutting",
+            "ingredients": [
+                {
+                    "item": "compatrecipemaster:incomplete_crown_coin"
+                }
+            ],
+            "results": [
+                {
+                    "id": "compatrecipemaster:incomplete_crown_coin"
+                }
+            ]
+        }
+    ],
+    "transitional_item": {
+        "id": "compatrecipemaster:incomplete_crown_coin"
+    }
+}

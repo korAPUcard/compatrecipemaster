@@ -1,0 +1,68 @@
+{
+    "type": "create:sequenced_assembly",
+    "ingredient": {
+        "tag": "c:plates/iron"
+    },
+    "results": [
+        {
+            "id": "minecraft:compass"
+        }
+    ],
+    "sequence": [
+        {
+            "type": "create:deploying",
+            "ingredients": [
+                {
+                    "item": "create:precision_mechanism"
+                }
+            ],
+            "results": [
+                {
+                    "id": "compatrecipemaster:incomplete_clock"
+                }
+            ]
+        },
+        {
+            "type": "create:deploying",
+            "ingredients": [
+                {
+                    "tag": "c:wires/steel"
+                }
+            ],
+            "results": [
+                {
+                    "id": "compatrecipemaster:incomplete_clock"
+                }
+            ]
+        },
+        {
+            "type": "create:deploying",
+            "ingredients": [
+                {
+                    "item": "tfmg:magnet"
+                }
+            ],
+            "results": [
+                {
+                    "id": "compatrecipemaster:incomplete_clock"
+                }
+            ]
+        },
+        {
+            "type": "create:deploying",
+            "ingredients": [
+                {
+                    "item": "minecraft:glass_pane"
+                }
+            ],
+            "results": [
+                {
+                    "id": "compatrecipemaster:incomplete_clock"
+                }
+            ]
+        }
+    ],
+    "transitional_item": {
+        "id": "compatrecipemaster:incomplete_clock"
+    }
+}

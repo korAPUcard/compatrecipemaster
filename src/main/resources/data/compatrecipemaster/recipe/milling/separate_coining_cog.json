@@ -1,0 +1,19 @@
+{
+    "type": "create:milling",
+    "ingredients": [
+        {
+            "item": "compatrecipemaster:coining_cog_coin"
+        }
+    ],
+    "processing_time": 10,
+    "results": [
+        {
+            "count": 1,
+            "id": "numismatics:cog"
+        },
+        {
+            "count": 1,
+            "id": "compatrecipemaster:cog_coining_die"
+        }
+    ]
+}

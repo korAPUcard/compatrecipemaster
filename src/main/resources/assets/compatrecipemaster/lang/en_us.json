@@ -1,3 +1,31 @@
 {
-  "itemGroup.compatrecipemaster": "Compat Recipe Master"
+    "itemGroup.compatrecipemaster.creative_tab": "Compat Recipe Master",
+    "item.compatrecipemaster.hard_drive_replica": "§kMysterious Hard Drive Replica",
+    "item.compatrecipemaster.incomplete_compass": "Incomplete Compass",
+    "item.compatrecipemaster.incomplete_clock": "Incomplete Clock",
+    "item.compatrecipemaster.incomplete_precision_compass": "Incomplete Precision Compass",
+    "item.compatrecipemaster.incomplete_precision_clock": "Incomplete Precision Clock",
+    "item.compatrecipemaster.spur_coining_die": "Spur Coining Die",
+    "item.compatrecipemaster.bevel_coining_die": "Bevel Coining Die",
+    "item.compatrecipemaster.sprocket_coining_die": "Sprocket Coining Die",
+    "item.compatrecipemaster.cog_coining_die": "Cog Coining Die",
+    "item.compatrecipemaster.crown_coining_die": "Crown Coining Die",
+    "item.compatrecipemaster.sun_coining_die": "Sun Coining Die",
+    "item.compatrecipemaster.incomplete_spur_coin": "Incomplete Spur Coin",
+    "item.compatrecipemaster.incomplete_bevel_coin": "Incomplete Bevel Coin",
+    "item.compatrecipemaster.incomplete_sprocket_coin": "Incomplete Sprocket Coin",
+    "item.compatrecipemaster.incomplete_cog_coin": "Incomplete Cog Coin",
+    "item.compatrecipemaster.incomplete_crown_coin": "Incomplete Crown Coin",
+    "item.compatrecipemaster.incomplete_sun_coin": "Incomplete Sun Coin",
+    "item.compatrecipemaster.coining_spur_coin": "Coining Spur Coin",
+    "item.compatrecipemaster.coining_bevel_coin": "Coining Bevel Coin",
+    "item.compatrecipemaster.coining_sprocket_coin": "Coining Sprocket Coin",
+    "item.compatrecipemaster.coining_cog_coin": "Coining Cog Coin",
+    "item.compatrecipemaster.coining_crown_coin": "Coining Crown Coin",
+    "item.compatrecipemaster.coining_sun_coin": "Coining Sun Coin",
+    "item.compatrecipemaster.zinc_sheet": "Zinc Sheet",
+    "item.compatrecipemaster.netherite_sheet": "Netherite Sheet",
+    "item.compatrecipemaster.incomplete_netherite_sheet": "Incomplete Netherite Sheet",
+
+    "desc.compatrecipemaster.hard_drive_replica": "§7Why you need this? You're not suppossed to get this stuff. It's classified.\nOf course you don't have any permission to use this to everywhere.\nAnd you know, we don't have any machine with compatible this stuff.\n...And honestly, we don't know what is this. I think its seems using like a §kdata storages§r§7 somwehere, but... §lWhere?"
 }

@@ -1,0 +1,110 @@
+{
+    "type": "create:sequenced_assembly",
+    "ingredient": {
+        "tag": "c:plates/netherite"
+    },
+    "results": [
+        {
+            "id": "compatrecipemaster:coining_sun_coin"
+        }
+    ],
+    "sequence": [
+        {
+            "type": "create:deploying",
+            "ingredients": [
+                {
+                    "item": "compatrecipemaster:incomplete_sun_coin"
+                },
+                {
+                    "item": "compatrecipemaster:sun_coining_die"
+                }
+            ],
+            "results": [
+                {
+                    "id": "compatrecipemaster:incomplete_sun_coin"
+                }
+            ]
+        },
+        {
+            "type": "create:pressing",
+            "ingredients": [
+                {
+                    "item": "compatrecipemaster:incomplete_sun_coin"
+                }
+            ],
+            "results": [
+                {
+                    "id": "compatrecipemaster:incomplete_sun_coin"
+                }
+            ]
+        },
+        {
+            "type": "create:pressing",
+            "ingredients": [
+                {
+                    "item": "compatrecipemaster:incomplete_sun_coin"
+                }
+            ],
+            "results": [
+                {
+                    "id": "compatrecipemaster:incomplete_sun_coin"
+                }
+            ]
+        },
+        {
+            "type": "create:pressing",
+            "ingredients": [
+                {
+                    "item": "compatrecipemaster:incomplete_sun_coin"
+                }
+            ],
+            "results": [
+                {
+                    "id": "compatrecipemaster:incomplete_sun_coin"
+                }
+            ]
+        },
+        {
+            "type": "create:cutting",
+            "ingredients": [
+                {
+                    "item": "compatrecipemaster:incomplete_sun_coin"
+                }
+            ],
+            "results": [
+                {
+                    "id": "compatrecipemaster:incomplete_sun_coin"
+                }
+            ]
+        },
+        {
+            "type": "create:cutting",
+            "ingredients": [
+                {
+                    "item": "compatrecipemaster:incomplete_sun_coin"
+                }
+            ],
+            "results": [
+                {
+                    "id": "compatrecipemaster:incomplete_sun_coin"
+                }
+            ]
+        },
+        {
+            "type": "create:cutting",
+            "ingredients": [
+                {
+                    "item": "compatrecipemaster:incomplete_sun_coin"
+                }
+            ],
+            "results": [
+                {
+                    "id": "compatrecipemaster:incomplete_sun_coin"
+                }
+            ]
+        }
+    ],
+    "transitional_item": {
+        "id": "compatrecipemaster:incomplete_sun_coin"
+    }
+}

@@ -1,0 +1,58 @@
+{
+    "type": "create:sequenced_assembly",
+    "ingredient": {
+        "tag": "c:plates/copper"
+    },
+    "results": [
+        {
+            "id": "compatrecipemaster:coining_spur_coin"
+        }
+    ],
+    "sequence": [
+        {
+            "type": "create:deploying",
+            "ingredients": [
+                {
+                    "item": "compatrecipemaster:incomplete_spur_coin"
+                },
+                {
+                    "item": "compatrecipemaster:spur_coining_die"
+                }
+            ],
+            "results": [
+                {
+                    "id": "compatrecipemaster:incomplete_spur_coin"
+                }
+            ]
+        },
+        {
+            "type": "create:pressing",
+            "ingredients": [
+                {
+                    "item": "compatrecipemaster:incomplete_spur_coin"
+                }
+            ],
+            "results": [
+                {
+                    "id": "compatrecipemaster:incomplete_spur_coin"
+                }
+            ]
+        },
+        {
+            "type": "create:cutting",
+            "ingredients": [
+                {
+                    "item": "compatrecipemaster:incomplete_spur_coin"
+                }
+            ],
+            "results": [
+                {
+                    "id": "compatrecipemaster:incomplete_spur_coin"
+                }
+            ]
+        }
+    ],
+    "transitional_item": {
+        "id": "compatrecipemaster:incomplete_spur_coin"
+    }
+}

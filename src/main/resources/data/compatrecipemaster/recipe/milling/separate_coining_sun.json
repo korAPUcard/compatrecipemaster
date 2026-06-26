@@ -1,0 +1,19 @@
+{
+    "type": "create:milling",
+    "ingredients": [
+        {
+            "item": "compatrecipemaster:coining_sun_coin"
+        }
+    ],
+    "processing_time": 10,
+    "results": [
+        {
+            "count": 1,
+            "id": "numismatics:sun"
+        },
+        {
+            "count": 1,
+            "id": "compatrecipemaster:sun_coining_die"
+        }
+    ]
+}

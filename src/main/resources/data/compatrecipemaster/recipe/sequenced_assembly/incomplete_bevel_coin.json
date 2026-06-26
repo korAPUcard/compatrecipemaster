@@ -1,0 +1,58 @@
+{
+    "type": "create:sequenced_assembly",
+    "ingredient": {
+        "tag": "c:plates/zinc"
+    },
+    "results": [
+        {
+            "id": "compatrecipemaster:coining_bevel_coin"
+        }
+    ],
+    "sequence": [
+        {
+            "type": "create:deploying",
+            "ingredients": [
+                {
+                    "item": "compatrecipemaster:incomplete_bevel_coin"
+                },
+                {
+                    "item": "compatrecipemaster:bevel_coining_die"
+                }
+            ],
+            "results": [
+                {
+                    "id": "compatrecipemaster:incomplete_bevel_coin"
+                }
+            ]
+        },
+        {
+            "type": "create:pressing",
+            "ingredients": [
+                {
+                    "item": "compatrecipemaster:incomplete_bevel_coin"
+                }
+            ],
+            "results": [
+                {
+                    "id": "compatrecipemaster:incomplete_bevel_coin"
+                }
+            ]
+        },
+        {
+            "type": "create:cutting",
+            "ingredients": [
+                {
+                    "item": "compatrecipemaster:incomplete_bevel_coin"
+                }
+            ],
+            "results": [
+                {
+                    "id": "compatrecipemaster:incomplete_bevel_coin"
+                }
+            ]
+        }
+    ],
+    "transitional_item": {
+        "id": "compatrecipemaster:incomplete_bevel_coin"
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " L ",
+        " S#",
+        "###"
+    ],
+    "key": {
+        "L": {
+            "item": "minecraft:lead"
+        },
+        "S": {
+            "item": "minecraft:saddle"
+        },
+        "#": {
+            "tag": "c:plates/iron"
+        }
+    },
+    "result": {
+        "id": "minecraft:iron_horse_armor",
+        "count": 1
+    }
+}

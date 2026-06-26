@@ -6,12 +6,17 @@
         "P"
     ],
     "key": {
-        "#": "minecraft:glass_pane",
-        "R": "minecraft:redstone",
-        "P": "c:plates/gold"
+        "#": {
+            "item": "minecraft:glass_pane"
+        },
+        "R": {
+            "item": "minecraft:redstone"
+        },
+        "P": {
+            "tag": "c:plates/gold"
+        }
     },
     "result": {
-        "id": "minecraft:clock",
-        "count": 1
+        "id": "minecraft:clock"
     }
 }

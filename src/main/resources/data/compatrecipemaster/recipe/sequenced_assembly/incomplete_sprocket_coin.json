@@ -1,0 +1,58 @@
+{
+    "type": "create:sequenced_assembly",
+    "ingredient": {
+        "tag": "c:plates/iron"
+    },
+    "results": [
+        {
+            "id": "compatrecipemaster:coining_sprocket_coin"
+        }
+    ],
+    "sequence": [
+        {
+            "type": "create:deploying",
+            "ingredients": [
+                {
+                    "item": "compatrecipemaster:incomplete_sprocket_coin"
+                },
+                {
+                    "item": "compatrecipemaster:sprocket_coining_die"
+                }
+            ],
+            "results": [
+                {
+                    "id": "compatrecipemaster:incomplete_sprocket_coin"
+                }
+            ]
+        },
+        {
+            "type": "create:pressing",
+            "ingredients": [
+                {
+                    "item": "compatrecipemaster:incomplete_sprocket_coin"
+                }
+            ],
+            "results": [
+                {
+                    "id": "compatrecipemaster:incomplete_sprocket_coin"
+                }
+            ]
+        },
+        {
+            "type": "create:cutting",
+            "ingredients": [
+                {
+                    "item": "compatrecipemaster:incomplete_sprocket_coin"
+                }
+            ],
+            "results": [
+                {
+                    "id": "compatrecipemaster:incomplete_sprocket_coin"
+                }
+            ]
+        }
+    ],
+    "transitional_item": {
+        "id": "compatrecipemaster:incomplete_sprocket_coin"
+    }
+}

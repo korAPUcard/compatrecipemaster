@@ -1,0 +1,95 @@
+{
+    "type": "create:sequenced_assembly",
+    "ingredient": {
+        "tag": "c:ingots/netherite"
+    },
+    "loops": 6,
+    "results": [
+        {
+            "id": "compatrecipemaster:netherite_sheet"
+        }
+    ],
+    "sequence": [
+        {
+            "type": "create:pressing",
+            "ingredients": [
+                {
+                    "item": "compatrecipemaster:incomplete_netherite_sheet"
+                }
+            ],
+            "results": [
+                {
+                    "id": "compatrecipemaster:incomplete_netherite_sheet"
+                }
+            ]
+        },
+        {
+            "type": "create:pressing",
+            "ingredients": [
+                {
+                    "item": "compatrecipemaster:incomplete_netherite_sheet"
+                }
+            ],
+            "results": [
+                {
+                    "id": "compatrecipemaster:incomplete_netherite_sheet"
+                }
+            ]
+        },
+        {
+            "type": "create:pressing",
+            "ingredients": [
+                {
+                    "item": "compatrecipemaster:incomplete_netherite_sheet"
+                }
+            ],
+            "results": [
+                {
+                    "id": "compatrecipemaster:incomplete_netherite_sheet"
+                }
+            ]
+        },
+        {
+            "type": "create:pressing",
+            "ingredients": [
+                {
+                    "item": "compatrecipemaster:incomplete_netherite_sheet"
+                }
+            ],
+            "results": [
+                {
+                    "id": "compatrecipemaster:incomplete_netherite_sheet"
+                }
+            ]
+        },
+        {
+            "type": "create:pressing",
+            "ingredients": [
+                {
+                    "item": "compatrecipemaster:incomplete_netherite_sheet"
+                }
+            ],
+            "results": [
+                {
+                    "id": "compatrecipemaster:incomplete_netherite_sheet"
+                }
+            ]
+        },
+        {
+            "type": "create:pressing",
+            "ingredients": [
+                {
+                    "item": "compatrecipemaster:incomplete_netherite_sheet"
+                }
+            ],
+            "results": [
+                {
+                    "id": "compatrecipemaster:incomplete_netherite_sheet"
+                }
+            ]
+        }
+    ],
+    "transitional_item": {
+        "id": "compatrecipemaster:incomplete_netherite_sheet"
+    }
+}

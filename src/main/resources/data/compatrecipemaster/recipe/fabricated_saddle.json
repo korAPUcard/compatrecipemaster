@@ -1,0 +1,25 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "##",
+        "~L",
+        " ="
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:leather"
+        },
+        "~": {
+            "item": "minecraft:string"
+        },
+        "L": {
+            "item": "minecraft:lead"
+        },
+        "=": {
+            "tag": "c:plates/iron"
+        }
+    },
+    "result": {
+        "id": "minecraft:saddle"
+    }
+}

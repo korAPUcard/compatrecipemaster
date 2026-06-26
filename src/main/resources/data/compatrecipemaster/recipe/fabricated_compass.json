@@ -6,12 +6,17 @@
         "P"
     ],
     "key": {
-        "#": "minecraft:glass_pane",
-        "R": "minecraft:redstone",
-        "P": "c:plates/iron"
+        "#": {
+            "item": "minecraft:glass_pane"
+        },
+        "R": {
+            "item": "minecraft:redstone"
+        },
+        "P": {
+            "tag": "c:plates/iron"
+        }
     },
     "result": {
-        "id": "minecraft:compass",
-        "count": 1
+        "id": "minecraft:compass"
     }
 }
