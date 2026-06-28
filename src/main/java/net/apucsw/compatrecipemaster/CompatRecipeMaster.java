@@ -25,7 +25,7 @@ public class CompatRecipeMaster {
 //        CRMBlocks.register(modEventBus);  // Never mind this. It's just a dummy data.
 //        CRMRecipes.register(modEventBus); // Anyway, just ignore this.
 
-        LOGGER.info("Compat Recipe Master (CRM 1.1) initialized for NeoForge. Happy very productive day!");
+        LOGGER.info("[Compat Recipe Master] Initialized for NeoForge. Happy very productive day!");
     }
 
     private void commonSetup(final FMLCommonSetupEvent event) {}
